@@ -5,19 +5,19 @@ import org.junit.Before;
 import org.junit.Ignore;
 import org.junit.Test;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.List;
 
 /**
  * Created by franciscoalvarez on 27/02/2016.
  */
-public class GreedyAlgorithmTest {
+public class GreedyRecursiveImplTest {
 
   private OptimalChange optimalChange;
 
   @Before
   public void init(){
-    //Use either one of the 2 implementations: GreedyRecursiveImpl or GreedyIterativeImpl
-    optimalChange = new GreedyIterativeImpl();
+    optimalChange = new GreedyRecursiveImpl();
   }
 
   @Test
